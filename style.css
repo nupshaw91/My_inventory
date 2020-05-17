@@ -1,9 +1,36 @@
 body {
+
     display: flex;
     min-height: 100px;
     flex-direction: column;
   }
 
+  nav{
+      background-color: black;
+  }
+  .color{
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(./assets/gold.jpg) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+  }
+
   main {
     flex: 1 0 auto;
   }
+
+ 
+.ash-text {
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(./assets/ash.jpg) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+.back{
+    background-color: black;
+}
